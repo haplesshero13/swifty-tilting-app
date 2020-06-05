@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AEAAB286248A873F0010B3FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAAB285248A873F0010B3FD /* AppDelegate.swift */; };
+		AEAAB288248A873F0010B3FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAAB287248A873F0010B3FD /* SceneDelegate.swift */; };
+		AEAAB28A248A873F0010B3FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAAB289248A873F0010B3FD /* ViewController.swift */; };
+		AEAAB28D248A873F0010B3FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEAAB28B248A873F0010B3FD /* Main.storyboard */; };
+		AEAAB28F248A87400010B3FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEAAB28E248A87400010B3FD /* Assets.xcassets */; };
+		AEAAB292248A87400010B3FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEAAB290248A87400010B3FD /* LaunchScreen.storyboard */; };
+		AEAAB29D248A87400010B3FD /* Swiftly_Tilting_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAAB29C248A87400010B3FD /* Swiftly_Tilting_AppTests.swift */; };
+		AEAAB2A8248A87400010B3FD /* Swiftly_Tilting_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAAB2A7248A87400010B3FD /* Swiftly_Tilting_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AEAAB299248A87400010B3FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEAAB27A248A873F0010B3FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEAAB281248A873F0010B3FD;
+			remoteInfo = "Swiftly Tilting App";
+		};
+		AEAAB2A4248A87400010B3FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEAAB27A248A873F0010B3FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEAAB281248A873F0010B3FD;
+			remoteInfo = "Swiftly Tilting App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AEAAB282248A873F0010B3FD /* Swiftly Tilting App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swiftly Tilting App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEAAB285248A873F0010B3FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AEAAB287248A873F0010B3FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AEAAB289248A873F0010B3FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AEAAB28C248A873F0010B3FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEAAB28E248A87400010B3FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEAAB291248A87400010B3FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AEAAB293248A87400010B3FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEAAB298248A87400010B3FD /* Swiftly Tilting AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swiftly Tilting AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEAAB29C248A87400010B3FD /* Swiftly_Tilting_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swiftly_Tilting_AppTests.swift; sourceTree = "<group>"; };
+		AEAAB29E248A87400010B3FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEAAB2A3248A87400010B3FD /* Swiftly Tilting AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swiftly Tilting AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEAAB2A7248A87400010B3FD /* Swiftly_Tilting_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swiftly_Tilting_AppUITests.swift; sourceTree = "<group>"; };
+		AEAAB2A9248A87400010B3FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEAAB27F248A873F0010B3FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEAAB295248A87400010B3FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEAAB2A0248A87400010B3FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEAAB279248A873F0010B3FD = {
+			isa = PBXGroup;
+			children = (
+				AEAAB284248A873F0010B3FD /* Swiftly Tilting App */,
+				AEAAB29B248A87400010B3FD /* Swiftly Tilting AppTests */,
+				AEAAB2A6248A87400010B3FD /* Swiftly Tilting AppUITests */,
+				AEAAB283248A873F0010B3FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEAAB283248A873F0010B3FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEAAB282248A873F0010B3FD /* Swiftly Tilting App.app */,
+				AEAAB298248A87400010B3FD /* Swiftly Tilting AppTests.xctest */,
+				AEAAB2A3248A87400010B3FD /* Swiftly Tilting AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEAAB284248A873F0010B3FD /* Swiftly Tilting App */ = {
+			isa = PBXGroup;
+			children = (
+				AEAAB285248A873F0010B3FD /* AppDelegate.swift */,
+				AEAAB287248A873F0010B3FD /* SceneDelegate.swift */,
+				AEAAB289248A873F0010B3FD /* ViewController.swift */,
+				AEAAB28B248A873F0010B3FD /* Main.storyboard */,
+				AEAAB28E248A87400010B3FD /* Assets.xcassets */,
+				AEAAB290248A87400010B3FD /* LaunchScreen.storyboard */,
+				AEAAB293248A87400010B3FD /* Info.plist */,
+			);
+			path = "Swiftly Tilting App";
+			sourceTree = "<group>";
+		};
+		AEAAB29B248A87400010B3FD /* Swiftly Tilting AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				AEAAB29C248A87400010B3FD /* Swiftly_Tilting_AppTests.swift */,
+				AEAAB29E248A87400010B3FD /* Info.plist */,
+			);
+			path = "Swiftly Tilting AppTests";
+			sourceTree = "<group>";
+		};
+		AEAAB2A6248A87400010B3FD /* Swiftly Tilting AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AEAAB2A7248A87400010B3FD /* Swiftly_Tilting_AppUITests.swift */,
+				AEAAB2A9248A87400010B3FD /* Info.plist */,
+			);
+			path = "Swiftly Tilting AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEAAB281248A873F0010B3FD /* Swiftly Tilting App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEAAB2AC248A87400010B3FD /* Build configuration list for PBXNativeTarget "Swiftly Tilting App" */;
+			buildPhases = (
+				AEAAB27E248A873F0010B3FD /* Sources */,
+				AEAAB27F248A873F0010B3FD /* Frameworks */,
+				AEAAB280248A873F0010B3FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swiftly Tilting App";
+			productName = "Swiftly Tilting App";
+			productReference = AEAAB282248A873F0010B3FD /* Swiftly Tilting App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AEAAB297248A87400010B3FD /* Swiftly Tilting AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEAAB2AF248A87400010B3FD /* Build configuration list for PBXNativeTarget "Swiftly Tilting AppTests" */;
+			buildPhases = (
+				AEAAB294248A87400010B3FD /* Sources */,
+				AEAAB295248A87400010B3FD /* Frameworks */,
+				AEAAB296248A87400010B3FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEAAB29A248A87400010B3FD /* PBXTargetDependency */,
+			);
+			name = "Swiftly Tilting AppTests";
+			productName = "Swiftly Tilting AppTests";
+			productReference = AEAAB298248A87400010B3FD /* Swiftly Tilting AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AEAAB2A2248A87400010B3FD /* Swiftly Tilting AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEAAB2B2248A87400010B3FD /* Build configuration list for PBXNativeTarget "Swiftly Tilting AppUITests" */;
+			buildPhases = (
+				AEAAB29F248A87400010B3FD /* Sources */,
+				AEAAB2A0248A87400010B3FD /* Frameworks */,
+				AEAAB2A1248A87400010B3FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEAAB2A5248A87400010B3FD /* PBXTargetDependency */,
+			);
+			name = "Swiftly Tilting AppUITests";
+			productName = "Swiftly Tilting AppUITests";
+			productReference = AEAAB2A3248A87400010B3FD /* Swiftly Tilting AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEAAB27A248A873F0010B3FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = pivotal;
+				TargetAttributes = {
+					AEAAB281248A873F0010B3FD = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					AEAAB297248A87400010B3FD = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = AEAAB281248A873F0010B3FD;
+					};
+					AEAAB2A2248A87400010B3FD = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = AEAAB281248A873F0010B3FD;
+					};
+				};
+			};
+			buildConfigurationList = AEAAB27D248A873F0010B3FD /* Build configuration list for PBXProject "Swiftly Tilting App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEAAB279248A873F0010B3FD;
+			productRefGroup = AEAAB283248A873F0010B3FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEAAB281248A873F0010B3FD /* Swiftly Tilting App */,
+				AEAAB297248A87400010B3FD /* Swiftly Tilting AppTests */,
+				AEAAB2A2248A87400010B3FD /* Swiftly Tilting AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEAAB280248A873F0010B3FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEAAB292248A87400010B3FD /* LaunchScreen.storyboard in Resources */,
+				AEAAB28F248A87400010B3FD /* Assets.xcassets in Resources */,
+				AEAAB28D248A873F0010B3FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEAAB296248A87400010B3FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEAAB2A1248A87400010B3FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEAAB27E248A873F0010B3FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEAAB28A248A873F0010B3FD /* ViewController.swift in Sources */,
+				AEAAB286248A873F0010B3FD /* AppDelegate.swift in Sources */,
+				AEAAB288248A873F0010B3FD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEAAB294248A87400010B3FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEAAB29D248A87400010B3FD /* Swiftly_Tilting_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEAAB29F248A87400010B3FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEAAB2A8248A87400010B3FD /* Swiftly_Tilting_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AEAAB29A248A87400010B3FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEAAB281248A873F0010B3FD /* Swiftly Tilting App */;
+			targetProxy = AEAAB299248A87400010B3FD /* PBXContainerItemProxy */;
+		};
+		AEAAB2A5248A87400010B3FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEAAB281248A873F0010B3FD /* Swiftly Tilting App */;
+			targetProxy = AEAAB2A4248A87400010B3FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AEAAB28B248A873F0010B3FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEAAB28C248A873F0010B3FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AEAAB290248A87400010B3FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEAAB291248A87400010B3FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AEAAB2AA248A87400010B3FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AEAAB2AB248A87400010B3FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEAAB2AD248A87400010B3FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Swiftly Tilting App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.pivotal.beach.Swiftly-Tilting-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AEAAB2AE248A87400010B3FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Swiftly Tilting App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.pivotal.beach.Swiftly-Tilting-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AEAAB2B0248A87400010B3FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Swiftly Tilting AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.pivotal.beach.Swiftly-Tilting-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swiftly Tilting App.app/Swiftly Tilting App";
+			};
+			name = Debug;
+		};
+		AEAAB2B1248A87400010B3FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Swiftly Tilting AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.pivotal.beach.Swiftly-Tilting-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swiftly Tilting App.app/Swiftly Tilting App";
+			};
+			name = Release;
+		};
+		AEAAB2B3248A87400010B3FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Swiftly Tilting AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.pivotal.beach.Swiftly-Tilting-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Swiftly Tilting App";
+			};
+			name = Debug;
+		};
+		AEAAB2B4248A87400010B3FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Swiftly Tilting AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.pivotal.beach.Swiftly-Tilting-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Swiftly Tilting App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEAAB27D248A873F0010B3FD /* Build configuration list for PBXProject "Swiftly Tilting App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEAAB2AA248A87400010B3FD /* Debug */,
+				AEAAB2AB248A87400010B3FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEAAB2AC248A87400010B3FD /* Build configuration list for PBXNativeTarget "Swiftly Tilting App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEAAB2AD248A87400010B3FD /* Debug */,
+				AEAAB2AE248A87400010B3FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEAAB2AF248A87400010B3FD /* Build configuration list for PBXNativeTarget "Swiftly Tilting AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEAAB2B0248A87400010B3FD /* Debug */,
+				AEAAB2B1248A87400010B3FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEAAB2B2248A87400010B3FD /* Build configuration list for PBXNativeTarget "Swiftly Tilting AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEAAB2B3248A87400010B3FD /* Debug */,
+				AEAAB2B4248A87400010B3FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEAAB27A248A873F0010B3FD /* Project object */;
+}
