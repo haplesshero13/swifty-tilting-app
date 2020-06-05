@@ -15,6 +15,9 @@
 		AEAAB292248A87400010B3FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEAAB290248A87400010B3FD /* LaunchScreen.storyboard */; };
 		AEAAB29D248A87400010B3FD /* Swiftly_Tilting_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAAB29C248A87400010B3FD /* Swiftly_Tilting_AppTests.swift */; };
 		AEAAB2A8248A87400010B3FD /* Swiftly_Tilting_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAAB2A7248A87400010B3FD /* Swiftly_Tilting_AppUITests.swift */; };
+		AEAAB2B6248A8D4E0010B3FD /* SwiftyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAAB2B5248A8D4E0010B3FD /* SwiftyView.swift */; };
+		AEAAB2B9248A9A490010B3FD /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAAB2B8248A9A490010B3FD /* ImageLoader.swift */; };
+		AEAAB2BB248A9A660010B3FD /* ImageFromURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAAB2BA248A9A660010B3FD /* ImageFromURL.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		AEAAB2A3248A87400010B3FD /* Swiftly Tilting AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swiftly Tilting AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEAAB2A7248A87400010B3FD /* Swiftly_Tilting_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swiftly_Tilting_AppUITests.swift; sourceTree = "<group>"; };
 		AEAAB2A9248A87400010B3FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEAAB2B5248A8D4E0010B3FD /* SwiftyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyView.swift; sourceTree = "<group>"; };
+		AEAAB2B8248A9A490010B3FD /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		AEAAB2BA248A9A660010B3FD /* ImageFromURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFromURL.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +105,15 @@
 		AEAAB284248A873F0010B3FD /* Swiftly Tilting App */ = {
 			isa = PBXGroup;
 			children = (
+				AEAAB2B7248A9A3C0010B3FD /* Images */,
+				AEAAB293248A87400010B3FD /* Info.plist */,
 				AEAAB285248A873F0010B3FD /* AppDelegate.swift */,
 				AEAAB287248A873F0010B3FD /* SceneDelegate.swift */,
+				AEAAB2B5248A8D4E0010B3FD /* SwiftyView.swift */,
 				AEAAB289248A873F0010B3FD /* ViewController.swift */,
-				AEAAB28B248A873F0010B3FD /* Main.storyboard */,
 				AEAAB28E248A87400010B3FD /* Assets.xcassets */,
 				AEAAB290248A87400010B3FD /* LaunchScreen.storyboard */,
-				AEAAB293248A87400010B3FD /* Info.plist */,
+				AEAAB28B248A873F0010B3FD /* Main.storyboard */,
 			);
 			path = "Swiftly Tilting App";
 			sourceTree = "<group>";
@@ -126,6 +134,15 @@
 				AEAAB2A9248A87400010B3FD /* Info.plist */,
 			);
 			path = "Swiftly Tilting AppUITests";
+			sourceTree = "<group>";
+		};
+		AEAAB2B7248A9A3C0010B3FD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AEAAB2B8248A9A490010B3FD /* ImageLoader.swift */,
+				AEAAB2BA248A9A660010B3FD /* ImageFromURL.swift */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +276,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEAAB2B6248A8D4E0010B3FD /* SwiftyView.swift in Sources */,
+				AEAAB2BB248A9A660010B3FD /* ImageFromURL.swift in Sources */,
 				AEAAB28A248A873F0010B3FD /* ViewController.swift in Sources */,
+				AEAAB2B9248A9A490010B3FD /* ImageLoader.swift in Sources */,
 				AEAAB286248A873F0010B3FD /* AppDelegate.swift in Sources */,
 				AEAAB288248A873F0010B3FD /* SceneDelegate.swift in Sources */,
 			);

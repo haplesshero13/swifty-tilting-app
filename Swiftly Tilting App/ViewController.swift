@@ -1,20 +1,7 @@
-//
-//  ViewController.swift
-//  Swiftly Tilting App
-//
-//  Created by pivotal on 6/5/20.
-//  Copyright © 2020 pivotal. All rights reserved.
-//
+import SwiftUI
 
-import UIKit
-
-class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+class ViewController: UIHostingController<SwiftyView> {
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder, rootView: SwiftyView())
     }
-
-
 }
-
